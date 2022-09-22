@@ -55,3 +55,17 @@ label{
     
 
 }
+
+.foot{
+    position: absolute;
+    height: 30px;
+    bottom: 0;
+    right:0;
+    left:0;
+    background-color: var(--secondary-color);
+    margin: 0;
+    padding: 1rem;
+    font-weight: bold;
+justify-content: center;
+}
+
