@@ -18,10 +18,13 @@ function calculateSum(x){
 
 function checkIfLuckyNumber(){
 
+    
+
     let number=Bday.value;
     let sum= calculateSum(number)
 
-    if (sum && luckyNumber.value ){
+    if (sum && luckyNumber.value >0){
+        
         if(sum%luckyNumber.value===0){
             resultEl.innerText="Lucky😇"
         }else{
@@ -29,7 +32,7 @@ function checkIfLuckyNumber(){
         }
 
     }else{
-            resultEl.innerText="Pls fill both the values"
+            resultEl.innerText="Pls fill both the values and make sure the lucky number is more than Zero"
     }
 
 }
